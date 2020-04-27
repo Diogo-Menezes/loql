@@ -14,7 +14,7 @@ export default createGlobalStyle`
   }
 
   body, input,button {
-    font: 16px Roboto, sans-serif;
+    font: 16px 'Nunito Sans', sans-serif;
   }
   #root {
 

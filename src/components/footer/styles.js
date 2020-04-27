@@ -6,8 +6,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: white;
   height: 50px;
-  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
-
+  box-shadow: 0 -3px 10px rgb(192, 169, 168, 0.5);
   span {
     font-size: 16px;
     color: #c0a9a8;

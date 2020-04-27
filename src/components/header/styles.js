@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: center;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 6px rgb(192, 169, 168, 0.5);
 
   div {
     display: flex;

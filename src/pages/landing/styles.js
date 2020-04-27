@@ -107,6 +107,7 @@ export const About = styled.div`
 
   section {
     max-width: 1024px;
+    min-width: 700px;
 
     ul {
       list-style: none;

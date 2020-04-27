@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div style={{ marginTop: '100px' }}>
+      <div style={{marginTop:'100px'}}>
         <Landing />
         <GlobalStyle />
       </div>

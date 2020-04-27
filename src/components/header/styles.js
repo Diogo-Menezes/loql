@@ -5,64 +5,78 @@ export const Container = styled.div`
   top: 0;
   background-color: #fff;
   width: 100%;
-  height: 70px;
-  padding-left: 40px;
-  padding-right: 40px;
+  height: 75px;
 
   display: flex;
-  align-items: center;
+  justify-content: center;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
-
-  img {
-    justify-self: center;
-  }
 
   div {
     display: flex;
-    justify-content: flex-end;
     flex: 1;
-    font-size: 20px;
-    color: #544b3f;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
 
-    a {
-      text-decoration: none;
+    img {
+      justify-self: center;
+    }
+
+    menu {
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+      font-size: 20px;
       color: #544b3f;
-      transition: color 0.4s;
 
-      &:hover {
-        color: #6cbf84;
-      }
-      span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80px;
-        height: 67px;
-      }
-      &:hover {
-        color: #6cbf84;
-        border-bottom: 3px solid #6cbf84;
-        margin-bottom: -3px;
+      a {
+        text-decoration: none;
+        color: #544b3f;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #6cbf84;
+        }
+        span {
+          width: 80px;
+          height: 67px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          font-weight: 400;
+          font-size: 20px;
+        }
+        &:hover {
+          color: #6cbf84;
+          border-bottom: 3px solid #6cbf84;
+          margin-bottom: -3px;
+          font-weight: 700;
+        }
       }
     }
-  }
-  > a {
-    padding: 4px 20px;
-    margin: 0 40px 0 26px;
-    border-radius: 30px;
-    border: 3px solid #544b3f;
-    border-radius: 30px;
 
-    text-decoration: none;
-    text-align: center;
-    font-weight: 800;
-    font-size: 18px;
-    color: black;
+    > a {
+      padding: 4px 20px;
+      margin: 0 40px 0 26px;
+      border-radius: 30px;
+      border: 3px solid #544b3f;
+      border-radius: 30px;
 
-    transition: all 0.4s;
-    &:hover {
-      border-color: #6cbf84;
-      color: #6cbf84;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 800;
+      font-size: 18px;
+      color: black;
+
+      transition: all 0.4s;
+      &:hover {
+        border-color: #6cbf84;
+        color: #6cbf84;
+      }
     }
   }
 `;

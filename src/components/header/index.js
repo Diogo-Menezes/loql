@@ -8,22 +8,23 @@ export default class header extends Component {
   render() {
     return (
       <Container>
-        {/* <FiMenu/> */}
-        <img src={logo} alt='logo' />
         <div>
-          <a href='/'>
-            <span>Home</span>
-          </a>
+          <img src={logo} alt='logo' />
+          <menu>
+            <a href='/'>
+              <span>Home</span>
+            </a>
 
-          <a href='/about'>
-            <span>About </span>
-          </a>
+            <a href='/about'>
+              <span>About </span>
+            </a>
 
-          <a href='/join'>
-            <span>Join us </span>
-          </a>
+            <a href='/join'>
+              <span>Join us </span>
+            </a>
+          </menu>
+          <a href='/register'>Register</a>
         </div>
-        <a href='/register'>Register</a>
       </Container>
     );
   }

@@ -11,6 +11,10 @@ export const Image = styled.div`
   align-items: center;
   flex: 0.5;
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
   section {
     flex-direction: column;
     justify-content: center;
@@ -108,13 +112,16 @@ export const About = styled.div`
 
   section {
     max-width: 1024px;
-    min-width: 700px;
 
     ul {
       list-style: none;
       display: flex;
       flex-direction: row;
       flex: 1;
+
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+      }
 
       li {
         display: flex;

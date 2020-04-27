@@ -9,7 +9,7 @@ export default createGlobalStyle`
   }
 
   body {
-  background: #F0F0F5;
+  background:  #FAF6F6;
   -webkit-font-smoothing: antialiased;
   }
 
@@ -17,7 +17,6 @@ export default createGlobalStyle`
     font: 16px 'Nunito Sans', sans-serif;
   }
   #root {
-
   }
 
   button {

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Fill = styled.div`
+  height: 75px;
+`;
+
 export const Container = styled.div`
   position: fixed;
   top: 0;

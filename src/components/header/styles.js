@@ -34,14 +34,15 @@ export const Container = styled.div`
       a {
         text-decoration: none;
         color: #544b3f;
-        transition: color 0.3s;
+        transition: color 0.2s;
 
         &:hover {
           color: #6cbf84;
         }
+
         span {
           width: 80px;
-          height: 67px;
+          height: 50px;
 
           display: flex;
           justify-content: center;
@@ -50,11 +51,21 @@ export const Container = styled.div`
           font-weight: 400;
           font-size: 20px;
         }
+
         &:hover {
           color: #6cbf84;
-          border-bottom: 3px solid #6cbf84;
-          margin-bottom: -3px;
           font-weight: 700;
+
+          background-position: bottom;
+          background-size: 15px 15px;
+          background-repeat: no-repeat;
+
+          background-image: radial-gradient(
+            circle,
+            #6cbf84 25%,
+            transparent 33%,
+            transparent 33%
+          );
         }
       }
     }
